@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghubungkan ke Server 2 (TKJ & BC)...</title>
+    <script>
+        // GANTI LINK DI BAWAH INI SETIAP KALI URL CLOUDFLARE SERVER 2 BERUBAH
+        const URL_SERVER_2 = "https://nested-pale-sectors-whole.trycloudflare.com";
+        
+        window.location.replace(URL_SERVER_2);
+    </script>
+    <style>
+        body { background: #FCF9EC; color: #00105B; font-family: sans-serif; display: flex; height: 100vh; align-items: center; justify-content: center; text-align: center; margin: 0; }
+        .box { background: #fff; border: 1.5px solid #C9B5E0; padding: 24px; border-radius: 14px; max-width: 340px; }
+        a { display: inline-block; margin-top: 12px; background: #00105B; color: #FCF9EC; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Menghubungkan ke Server 2...</h3>
+        <p style="font-size:13px; color:#5a5d7a;">Jurusan TKJ & BC</p>
+        <a id="manualLink" href="#">Klik Jika Tidak Pindah Otomatis</a>
+    </div>
+    <script>document.getElementById('manualLink').href = URL_SERVER_2;</script>
+</body>
+</html>
